@@ -1,0 +1,18 @@
+#cats-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-cat {
+  position: relative;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.single-cat > h3 {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.4rem 1rem;
+}
